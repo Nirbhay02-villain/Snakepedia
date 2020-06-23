@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>snakemania</title>
+  <link rel="shortcut icon" href="favicon-1.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+</head>
+
+
+
+<body>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <section id="title">
+
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <img width="450" height="100" src="https://i2.wp.com/savethesnakes.org/wp-content/uploads/2019/02/Save-The-Snakes-Logo-White-no-url.png?fit=6000%2C969&amp;ssl=1" class="custom-logo" alt="save the snakes"
+          srcset="https://i2.wp.com/savethesnakes.org/wp-content/uploads/2019/02/Save-The-Snakes-Logo-White-no-url.png?w=6000&amp;ssl=1 6000w, https://i2.wp.com/savethesnakes.org/wp-content/uploads/2019/02/Save-The-Snakes-Logo-White-no-url.png?resize=300%2C48&amp;ssl=1 300w, https://i2.wp.com/savethesnakes.org/wp-content/uploads/2019/02/Save-The-Snakes-Logo-White-no-url.png?resize=768%2C124&amp;ssl=1 768w, https://i2.wp.com/savethesnakes.org/wp-content/uploads/2019/02/Save-The-Snakes-Logo-White-no-url.png?resize=1024%2C165&amp;ssl=1 1024w, https://i2.wp.com/savethesnakes.org/wp-content/uploads/2019/02/Save-The-Snakes-Logo-White-no-url.png?resize=150%2C24&amp;ssl=1 150w, https://i2.wp.com/savethesnakes.org/wp-content/uploads/2019/02/Save-The-Snakes-Logo-White-no-url.png?resize=500%2C81&amp;ssl=1 500w, https://i2.wp.com/savethesnakes.org/wp-content/uploads/2019/02/Save-The-Snakes-Logo-White-no-url.png?resize=600%2C97&amp;ssl=1 600w, https://i2.wp.com/savethesnakes.org/wp-content/uploads/2019/02/Save-The-Snakes-Logo-White-no-url.png?w=1740&amp;ssl=1 1740w, https://i2.wp.com/savethesnakes.org/wp-content/uploads/2019/02/Save-The-Snakes-Logo-White-no-url.png?w=2610&amp;ssl=1 2610w"
+          sizes="(max-width: 6000px) 100vw, 6000px" data-attachment-id="5232" data-permalink="https://savethesnakes.org/save-the-snakes-logo-white-no-url/"
+          data-orig-file="https://i2.wp.com/savethesnakes.org/wp-content/uploads/2019/02/Save-The-Snakes-Logo-White-no-url.png?fit=6000%2C969&amp;ssl=1" data-orig-size="6000,969" data-comments-opened="0"
+          data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}"
+          data-image-title="Save-The-Snakes-Logo-White-no-url" data-image-description="" data-medium-file="https://i2.wp.com/savethesnakes.org/wp-content/uploads/2019/02/Save-The-Snakes-Logo-White-no-url.png?fit=300%2C48&amp;ssl=1"
+          data-large-file="https://i2.wp.com/savethesnakes.org/wp-content/uploads/2019/02/Save-The-Snakes-Logo-White-no-url.png?fit=870%2C140&amp;ssl=1">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="https://www.independent.co.uk/topic/Snakes">NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.livescience.com/27845-snakes.html">ABOUT</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">WHY SNAKES?</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="http://www.snake-removal.com/identify.html">SNAKE IDENTIFICATION</a>
+                <a class="dropdown-item" href="https://wsed.org/coexisting-with-wild-snakes-revised-version/">COEXIST WITH SNAKES</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://www.healthline.com/health/snake-bites">SNAKE BITE</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <button class="btn"><a href="donate.html" target="_blank">DONATE</a></button>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+  </section>
+
+
+  <section id="slides">
+
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="5000">
+          <img src="vine.jpg" class="d-block w-100" alt="">
+          <div class="carousel-caption  d-md-block">
+            <h1 class="vine-details">AHAETULLA NASUTA</h1>
+            <h3 class="vine-details">VINE SNAKES DOES NOT ATTCK YOU FROM AIR ! THEY ARE HARMLESS</h3>
+          </div>
+        </div>
+        <div class="carousel-item " data-interval="5000">
+          <img src="fang.jpg" class="d-block w-100" alt="">
+          <div class="carousel-caption  d-md-block">
+            <h1 class="fang-details">BITIS GABONICA</h1>
+            <h3 class="fang-details">SNAKES WITH LONGEST FANG</h3>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="5000">
+          <img src="blue.jpg" class="d-block w-100" alt="">
+          <div class="carousel-caption  d-md-block">
+            <h1>KRAIT</h1>
+            <h3>HEXAGONAL SCALES,BLUISH BLACK BODY WITH PAIRED WHITE BANDS </h3>
+          </div>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+
+  <section id="information">
+
+    <h1>SNAKES</h1>
+    <p>There are more than <a href="https://apps.who.int/bloodproducts/snakeantivenoms/database/">3,000 species of snakes</a> on the planet and they’re found everywhere except in Antarctica, Iceland, Ireland, Greenland, and New Zealand. About 600 species are venomous, and only about 200 are able to kill or
+      significantly wound a human.</p>
+
+    <p>Nonvenomous snakes, which range from harmless garter snakes to the not-so-harmless python, dispatch their victims by swallowing them alive or constricting them to death. Whether they kill by striking with venom or squeezing, nearly all snakes
+      eat their food whole, in sometimes astoundingly large portions.</p>
+
+    <h1>How Snake Hunt</h1>
+    <p>Snakes also have forked tongues, which they flick in different directions to smell their surroundings. That lets them know when danger is nearby.</p>
+    <p>Snakes have several other ways to detect a snack. Openings called pit holes in front of their eyes sense the heat given off by warm-blooded prey. And bones in their lower jaws pick up vibrations from rodents and other scurrying animals. When
+      they do capture prey, snakes can eat animals up to three times bigger than their head is wide because their lower jaws unhinge from their upper jaws. Once in a snake’s mouth, the prey is held in place by teeth that face inward, trapping it
+      there.</p>
+
+
+    <h1>Sea Snakes</h1>
+    <p>Most snakes live on land, but there are about <a href="https://theconversation.com/there-are-dozens-of-sea-snake-species-in-the-indian-and-pacific-oceans-but-none-in-the-atlantic-or-caribbean-why-91452">70 species of snakes that live in the Indian and Pacific oceans.</a> Sea snakes and their cousins, kraits, are some of the most venomous snakes that exist, but they pose little threat to
+      humans because they’re shy, gentle, and their fangs are too short to do much damage.
+
+    </p>
+
+  </section>
+
+
+  <section id="slides-snake">
+
+
+    <h1>VENOMOUS SNAKES</h1>
+
+    <div class="row">
+
+      <div class="snake-column col-lg-6">
+
+
+        <div class="card">
+
+          <div class="card-header">
+            <h3>COBRA</h3>
+          </div>
+
+          <div class="card-body">
+            <img src="cobra.jpg" alt="" class="cobra rounded-circle">
+
+            <div class="dropdown">
+              <a class="btn btn-secondary btn-lg dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                touch
+              </a>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="cobra.jpg">images</a>
+
+                <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Cobra" target="_blank">know more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="snake-column col-lg-6">
+
+
+        <div class="card">
+
+          <div class="card-header">
+            <h3>BLACK-MAMBA</h3>
+          </div>
+
+          <div class="card-body">
+            <img src="black-mamba.jpg" alt="" class="black-mamba rounded-circle">
+
+            <div class="dropdown">
+              <a class="btn btn-secondary btn-lg dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                touch
+              </a>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="black-mamba.jpg">images</a>
+
+                <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Black_mamba">know more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="snake-column col-lg-6">
+
+
+        <div class="card">
+
+          <div class="card-header">
+            <h3>TAIPAN</h3>
+          </div>
+
+          <div class="card-body">
+            <img src="taipan.jpg" alt="" class="taipan rounded-circle">
+
+            <div class="dropdown">
+              <a class="btn btn-secondary btn-lg dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                touch
+              </a>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="taipan.jpg">images</a>
+
+                <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Taipan" target="_blank">know more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="snake-column col-lg-6">
+
+
+        <div class="card">
+
+          <div class="card-header">
+            <h3>KRAIT</h3>
+          </div>
+
+          <div class="card-body">
+            <img src="krait.jpg" alt="" class="krait rounded-circle">
+
+            <div class="dropdown">
+              <a class="btn btn-secondary btn-lg dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                touch
+              </a>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="krait.jpg">images</a>
+
+                <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Common_krait" target="_blank">know more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+
+  <section id="did-you-know">
+
+    <div class="middle-container">
+
+      <div class="row">
+
+
+        <div class="animate col-lg-6">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inne">
+              <div class="carousel-item active">
+
+                <h2 class="head"> DID YOU KNOW</h2>
+
+                <h5>Snakes are ectotherms; they regulate body temperature by warming in the sun or cooling off in the shade </h5>
+                <a class="abc" href="https://kids.nationalgeographic.com/explore/nature/super-snakes/" target="_blank"><b>NATIONAL GEOGRAPHIC</b></a>
+              </div>
+              <div class="carousel-item">
+                <h2 class="head"> DID YOU KNOW</h2>
+
+                <h5> The banded sea krait's venom is 10 times more toxic than a rattlesnake's.</h5>
+                <a class="abc" href="https://kids.nationalgeographic.com/explore/nature/super-snakes/" target="_blank"><b>NATIONAL GEOGRAPHIC</b></a>
+              </div>
+              <div class="carousel-item">
+
+                <h2 class="head"> DID YOU KNOW</h2>
+
+                <h5>snake can be very quick: the black mamba slihters up to 7 miles per hour </h5>
+                <a class="abc" href="https://kids.nationalgeographic.com/explore/nature/super-snakes/" target="_blank"><b>NATIONAL GEOGRAPHIC</b></a>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+
+        </div>
+
+
+
+        <div class="animate col-lg-6">
+
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="ectotherms.jpg" class="d-block w-100 info" alt="...">
+                <div class="carousel-caption  d-md-block">
+                  <h5>ECTOTHERMS</h5>
+
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="sea-krait.jpg" class="d-block w-100 info" alt="...">
+                <div class="carousel-caption  d-md-block">
+                  <h5>SEA-KRAIT</h5>
+
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="black.jpg" class="d-block w-100 info" alt="...">
+                <div class="carousel-caption  d-md-block">
+                  <h5>BLACK-MAMBA</h5>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+
+
+
+
+
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+<section id="snake-island">
+
+  <div class="fullscreen-bg">
+    <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+        <source src="snake1.webm" type="video/webm">
+
+    </video>
+</div>
+
+
+    <h1><abbr title="">SNAKE ISLAND: BRAZIL</abbr> </h1>
+
+<h1 class="info-snake">This Brazilian Island Has So Many </h1>
+
+<h1 class="info-snake1">Snakes, Humans Aren’t Allowed</h1>
+
+<p>No humans are allowed on Snake Island and with good reason. There's about one deadly snake per square foot on it.</p>
+<img src="snake-island2.jpg" alt="" class="img-sl2">
+
+<p>About 25 miles off the coast of Brazil, there is an island where no local would ever dare tread. Legend has it that the last fisherman who strayed too close to its shores was found days later adrift in his own boat, lifeless in a pool of blood.
+
+The mysterious island is known as Ilha da Queimada Grande, and it is in fact so dangerous to set foot there that Brazil has made it illegal for anyone to visit. The danger on the island comes in the form of the golden lancehead snakes – a species of pit viper and one of the deadliest serpents in the world.
+
+The lanceheads can grow to be over a foot-and-a-half long and it’s estimated that there are between 2,000 and 4,000 snakes on the island, which unsurprisingly is known as Snake Island. The lanceheads are so venomous that a human bitten by one could be dead within an hour.
+Snake Island is uninhabited now, but people used to live there for a short period up to until the late 1920s when, according to legend, the local lighthouse keeper and his family were killed by vipers that slithered in through the windows. Today, the navy periodically visits the lighthouse for upkeep and makes sure no adventurers are wandering too close to the island.</p>
+
+
+
+<h1><strong><cite><blockquote cite="http://">SOMETHINGS ABOUT SNAKE ISLAND THAT WE PREFERRED NOT TO KNOW</blockquote> </cite></strong></h1>
+
+<ul class="info-sl1">
+  <h3><dl>1) There Are Thousands Of Snakes</dl></h3>
+  <h3><dl>2) The Snakes Can't Swim</dl></h3>
+  <h3><dl>3) Venom Can Melt Skin</dl></h3>
+  <h3><dl>4) Snakes Have No Predators</dl></h3>
+  <h3><dl>5) There Is A 3% Chance Of Lasting</dl></h3>
+  <h3><dl>6) The Island Has A Black Market</dl></h3>
+  <h3><dl>7) Snakes Are Endangered</dl></h3>
+</ul>
+
+
+
+
+</section>
+
+
+<section id="video">
+
+  <div id="Container"
+   style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+   <iframe id="ViostreamIframe"
+    width="100%" height="100%"
+    src="https://www.youtube.com/embed/jH1Q2867ECE"
+    frameborder="0" allowfullscreen=""
+    style="position:absolute; top:0; left: 0"></iframe>
+  </div>
+
+
+
+</section>
+
+<section id="footer">
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-lg-4 footer-img">
+        <img src="https://i0.wp.com/savethesnakes.org/wp-content/uploads/2019/02/snake-rescue-call-14-550.jpg?fit=300%2C200&ssl=1" class="footer-image">
+      </div>
+      <div class="col-lg-4 footer-ref">
+
+          <ul class="footer-animals"><h2>MOST POPULAR ANIMALS</h2></ul>
+          <li class="footer-animals"><a href="https://www.nationalgeographic.com/animals/mammals/g/giant-panda/">GIANT PANDA</a></li>
+          <li class="footer-animals"><a href="https://www.nationalgeographic.com/animals/mammals/r/red-panda/">RED PANDA</a></li>
+          <li class="footer-animals"><a href="https://www.nationalgeographic.com/animals/mammals/a/african-elephant/">AFRICAN ELEPHENT</a></li>
+          <li class="footer-animals"><a href="https://www.nationalgeographic.com/animals/birds/b/bald-eagle/">BALD EAGLE</a></li>
+          <li class="footer-animals"><a href="https://www.nationalgeographic.com/animals/reptiles/k/komodo-dragon/">KOMODO DRAGON</a></li>
+          <li class="footer-animals"><a href="https://www.nationalgeographic.com/animals/mammals/a/arctic-fox/">ARCTIC FOX</a></li>
+
+
+      </div>
+      <div class="col-lg-4 footer-last">
+        <h5 >Copyright © 2019 Save The Snakes. All Rights Reserved. Save The Snakes is a 501(c)(3) nonprofit organization.</h5>
+         <h4 class="last-col">CONTACT US</h4>
+         <a href="https://www.facebook.com/natgeo"><i class="social-icon fab fa-facebook"></i></a>
+         <a href="https://twitter.com/savethesnakes"><i class="social-icon fab fa-twitter"></i></a>
+         <a href="https://www.instagram.com/savingsnakes/"><i class="social-icon fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+</body>
+
+</html>

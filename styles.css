@@ -1,0 +1,242 @@
+body {
+  background-color: #f7f7f7;
+
+}
+
+
+#title {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+h1{
+  font-family: Cursive;
+}
+h2{
+  font-family: Fantasy;
+}
+h3{
+  font-family:Comic Sans MS;
+}
+
+p{
+  font-family:PLAYFAIR DISPLAY;
+  font-size: 1.3rem;
+}
+/* slides */
+#slides {}
+
+.d-block {
+  height: 600px;
+}
+
+.vine-details {
+  color: black;
+}
+
+.fang-details {
+  color: black;
+}
+
+#information {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url(https://i2.wp.com/savethesnakes.org/wp-content/uploads/2019/10/rattlesnake-save-the-snakes-1-1512638558-1576492279536.jpg?fit=5085%2C3392&ssl=1);
+}
+
+#slides-snake {
+  text-align: center;
+  padding-top:1.5rem;
+}
+
+.cobra {
+  width: 18rem;
+  padding-bottom: 10px;
+}
+
+.taipan {
+  width: 28rem;
+  padding-bottom: 10px;
+}
+
+.krait {
+  width: 18rem;
+  padding-bottom: 10px;
+}
+
+.black-mamba {
+  width: 24rem;
+  padding-bottom: 10px;
+}
+
+.carousel-inne {
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 250px;
+  padding-left: 70px;
+  padding-right: 80px;
+  text-align: center;
+  color: white;
+}
+
+.head {
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+
+.abc {
+  position: relative;
+  top: 30px;
+  color: yellow;
+}
+
+.info {
+  height: 330px;
+  width: 500px;
+}
+
+#snake-island {
+  text-align: center;
+  padding-top: 30px;
+  opacity: 100%;
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 30%;
+}
+
+
+.info-snake {
+  padding-top: 25px;
+}
+
+.info-snake1 {
+  padding-bottom: 5px;
+}
+
+.img-sl2 {
+  width: 500px;
+}
+
+.info-sl1 {
+  text-align: left;
+}
+
+a:visited {
+  color: #d92027;
+  background-color: #beebe9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #45046a;
+  background-color: transparent;
+  text-decoration: underline;
+  display: subgrid;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#video {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#footer {
+  text-align: center;
+  padding-top: 40px;
+  background-color:black;
+}
+
+.footer-img{
+
+
+}
+
+.footer-ref{
+
+   color: white;
+   margin-top: 15px;
+}
+
+.footer-last{
+
+  color: white;
+  margin-top: 15px;
+}
+.footer-image {
+  width: 350px;
+  height: 200px;
+}
+
+.footer-animals {
+  text-align: left;
+}
+
+.last-col{
+  padding-top: 10px;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+
+
+#navbar-property{
+  background-color: grey;
+}
+
+.FIRST-PART{
+  padding-top: 20px;
+}
+
+.second-part{
+  padding-top: 20px;
+}
+
+.form-submit{
+  margin-top: 13px;
+}
+
+.Payment{
+  margin-top: 10px;
+}
+.card{
+  margin-top: 1rem;
+}
+
+.card-header{
+  background-color:#7FDBFF;
+}
+.card-body{
+  background-color:silver;
+}
+
+
+.don{
+
+  width: 40rem;;
+}
